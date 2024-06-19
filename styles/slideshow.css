@@ -1,0 +1,29 @@
+.slideshow-container{
+  
+  background-color: rgb(255, 255, 255);
+}
+
+.heading1 {
+  display: none; 
+}
+
+
+.ani {
+  opacity: 0;
+  animation-name: show;
+  animation-duration: 5s;
+  
+
+}
+
+@keyframes show {
+  0% {opacity: 0} 
+  5% {opacity: 1}
+  95% {opacity: 1}
+  100% {opacity: 0}
+}
+
+@keyframes darken {
+  0% {opacity: 0} 
+  100% {opacity: 1}
+}

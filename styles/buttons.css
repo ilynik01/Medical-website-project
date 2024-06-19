@@ -1,0 +1,204 @@
+/* Button: Submit to the Doctor */
+
+/* Usage of button styles: */
+/* determine the class name and its style */
+/* use it on button in your html */
+
+
+
+/* add data button: blue, rainbow when pressed*/
+    .add-data {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 3px 3px 5px #5c5c5c;
+    width: 470px;
+    height: 50px;
+    background: rgb(21, 109, 192)    
+    }
+
+    .add-data:hover{
+        background: rgb(118, 167, 241);
+        color: white;
+        box-shadow: 3px 3px 5px #0084ff;
+    }
+
+    .add-data:active{
+    background: rgb(241, 118, 118);
+    color: white;
+    transform: scale(0.9);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 4s ease infinite;
+    }
+
+
+
+/* add data button: green, rainbow when pressed*/
+    .reg-button {
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        color: rgb(77, 45, 45);
+        border-radius: 20px;
+        border: 0;
+        box-shadow: 3px 3px 5px #5c5c5c;
+        width: 23vh;
+        height: 40px;
+        background: rgb(145, 255, 172)    
+        }
+    
+        .reg-button:hover{
+        background: rgb(118, 167, 241);
+        color: white;
+        box-shadow: 3px 3px 5px #0084ff;
+        }
+    
+        .reg-button:active{
+        background: rgb(241, 118, 118);
+        color: white;
+        transform: scale(0.9);
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	    background-size: 200% 200%;
+	    animation: gradient 4s ease infinite;
+        }
+    
+
+
+        @keyframes gradient {
+            0% {
+                background-position: 0%;
+            }
+            100% {
+                background-position: 100%;
+            }
+        }
+
+
+
+    /* Button Edit: yellow, yellow when pressed */
+        
+      .reg-button-edit {
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        color: rgb(80, 80, 80);
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 3px 3px 5px #5c5c5c;
+        width: 100px;
+        height: 30px;
+        background: rgb(223, 221, 120);   
+      }
+    
+      .reg-button-edit:hover{
+        background: rgb(207, 205, 90);
+        color: white;
+        box-shadow: 3px 3px 5px #968c00;
+      }
+    
+      .reg-button-edit:active{
+        background: rgb(207, 205, 90);
+        color: white;
+        transform: scale(0.9);
+      }
+    
+    
+      /* Button Delete: red, red when pressed */
+    
+        .reg-button-delete {
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        color: rgb(80, 80, 80);
+        border-radius: 20px;
+        border: 0;
+        box-shadow: 3px 3px 5px #5c5c5c;
+        width: 15vh;
+        height: 40px;
+        background: rgb(248, 174, 174);   
+      }
+    
+      .reg-button-delete:hover{
+        background: rgb(241, 118, 118);
+        color: white;
+        box-shadow: 3px 3px 5px #c90000;
+      }
+    
+      .reg-button-delete:active{
+        background: rgb(241, 118, 118);
+        color: white;
+        transform: scale(0.9);
+      }
+    
+      
+      /* Button Undo: always grey */
+    
+      .reg-button-undo {
+        margin-top: 10px;
+        margin-left: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        color: rgb(43, 43, 43);
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 3px 3px 5px #5c5c5c;
+        width: 100px;
+        height: 30px;
+        background: rgb(138, 138, 138);   
+      }
+    
+      .reg-button-undo:hover{
+        background: rgb(122, 122, 122);
+        color: white;
+        box-shadow: 3px 3px 5px #333333;
+      }
+    
+      .reg-button-undo:active{
+        background: rgb(122, 122, 122);
+        color: white;
+        transform: scale(0.9);
+      }
+    
+    
+
+      /* Rectangle Submitted: looks like a pressed button, blue color, can't be pressed */
+    
+    .reg-rect-submitted{
+        margin-top: 0;
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 230px;
+        height: 40px;
+        background: linear-gradient(-30deg, #40c9ff, #3566af, #40c9ff);
+        box-shadow: inset 0px 0px 5px 3px #707070;
+        border-radius: 17px;
+        border: 0;
+    }
+    
+    .reg-rect-submitted p{
+        padding: 10px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1000;
+        font-size: 15px;
+        color: rgb(243, 243, 243);
+    }
+    
+    
+    

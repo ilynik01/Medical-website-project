@@ -1,0 +1,116 @@
+.container-login {
+    width: 400px;
+    text-align:center;
+    padding: 90px;
+    background-color: white;
+    border-radius: 10px;  
+
+    margin: auto;
+    margin-top: 18vh;
+  }
+  
+  #confirmedError {
+    text-align:center;
+    
+    padding: 20px;
+    background-color: rgb(255, 191, 191);
+    font-weight: bold;
+    color: rgb(126, 25, 0);
+    border-radius: 10px;  
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  #form-table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #form-table td {
+    padding-left:10px;
+    padding-right: 10px;
+  
+  }
+  
+  #sex input[type="radio"] {
+    text-align:left;
+    font-weight: bold;
+  
+    padding: 5px;
+    margin: 5 px 0 20px 0;
+    display: inline-block;
+    border: 0;
+    border-radius:10px;
+    background: #d6d6d6;
+  }
+  
+  input[type=text], input[type=password], input[type="email"], textarea {
+    text-align:left;
+    font-weight: bold;
+  
+    
+  
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    display: inline-block;
+    border: 0;
+    border-radius:10px;
+    background: #f1f1f1;
+  }
+  
+  input::placeholder  {
+    font-weight: bold;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type="email"]:focus {
+    font-weight: bold;
+    background-color: rgb(255, 211, 130);
+    outline: none;
+  }
+  
+
+  /* Widths of input */
+
+
+#firstname, #lastname {
+    width: 160px;
+}
+
+#sex{
+    width: 100px;
+}
+
+#phone, #email {
+    width: 225px;
+}
+
+  input[type=password] {
+      width: 345px;
+  }
+
+  #loginemail #email {
+    width: 345px;
+  }
+
+
+  
+  .registerbtn, .loginbtn {
+    border-radius:10px;
+    background-color: darkorange;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 1;
+  }
+  .registerbtn:hover, .loginbtn:hover {
+    background-color: rgb(206, 118, 11);
+  }
+  
+  
+  
+  
+  

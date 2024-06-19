@@ -1,0 +1,207 @@
+
+
+/* NAVBAR */
+
+nav{
+    display: flex;
+  
+}
+
+
+#navbar{
+    
+    position: fixed;
+   
+    display: flex; 
+    justify-content:center;
+    flex-flow: center;
+    align-items: center;
+
+
+	
+
+	width: 100%;  
+    height: 1vh;
+    padding: 5vh;
+
+
+
+
+	
+
+    background-color: rgba(227, 238, 241, 0.8); 
+
+    
+
+}
+
+#navbar ul { 
+    margin-left: -19vh;
+    margin-top: 4vh;
+    position: absolute;
+	padding: 4 vh;
+	
+
+} 
+ 
+#navbar ul li {  
+    
+	display: inline-block;
+    
+} 
+ 
+
+
+
+.menu {
+
+	float: left;
+  	
+}
+
+
+
+.register{
+
+	float: right;
+}
+
+
+
+
+
+/* Main Buttons */
+#navbar ul .menu a { 
+	
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: black; 
+  	text-shadow: 0.1vh 0.1vh black; 
+	align-items: center;
+	background-image:  linear-gradient(#86b1ff, #9bbefd);
+	border-radius: 0.5vh;
+	transition: box-shadow .15s,transform .15s;
+
+	box-sizing: content-box;
+	box-shadow: rgba(45, 35, 66, 0.4) 0 0.2vh 0.4vh,rgba(45, 35, 66, 0.3) 0 0.7vh 1.3vh -0.3vh,#196ebe 0 -0.3vh 0 inset;
+	will-change: box-shadow,transform;
+	font-size: 2vh;
+	color: #36395A;
+	margin-left: 2vh;
+	display: inline-flex;
+	height: 5vh;
+
+		
+} 
+
+
+ 
+#navbar ul .menu a:hover { 
+	color: white; 
+	background-color: black;
+	text-shadow: 0.1vh 0.1vh white; 
+	box-shadow: rgba(45, 35, 66, 0.4) 0 0.2vh 0.4vh, rgba(45, 35, 66, 0.3) 0 0.7vh 1.3vh -0.3vh, #3da5c5 0 -0.3vh 0 inset;
+	transform: translateY(-0.3vh);
+} 
+
+
+#navbar ul .menu a:active {
+	box-shadow: #3da5c5 0 0.3vh 0.7vh inset;
+	transform: translateY(-0.3vh);
+  }
+  
+
+
+.register li a{
+	
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: black; 
+    text-shadow: 0.1vh 0.1vh rgb(187, 15, 15); 
+	align-items: center;
+	background-image:  linear-gradient(#ff8686, #fd9b9b);
+	border-radius: 0.5vh;
+	transition: box-shadow .15s,transform .15s;
+
+	box-sizing: content-box;
+	box-shadow: rgba(45, 35, 66, 0.4) 0 0.2vh 0.4vh,rgba(45, 35, 66, 0.3) 0 0.7vh 1.3vh -0.3vh,#940f30 0 -0.3vh 0 inset;
+	will-change: box-shadow,transform;
+	font-size: 2vh;
+	color: #36395A;
+	margin-left: 2vh;
+	display: inline-flex;
+	height: 5vh;
+	width: 1 60px;
+	position: relative;
+
+}
+
+
+.register li a:hover { 
+	color: white; 
+	text-shadow: 0.1vh 0.1vh white; 
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+	box-shadow: rgba(45, 35, 66, 0.4) 0 0.4vh 0.8vh, rgba(45, 35, 66, 0.3) 0 0.7vh 1.3vh -0.3vh, #d44192 0 -0.5vh 0 inset;
+	transform: translateY(-0.3vh);
+
+} 
+
+.register li a:active {
+	box-shadow: #3da5c5 0 0.3vh 0.7vh inset;
+	transform: translateY(-0.3vh);
+  }
+
+
+
+
+
+/* Dropdown button */
+
+.dropbutton {
+	border: none;
+	padding: 0.2vh;
+	padding-left: 0.5vh;
+
+	height: 4vh;
+  width: 4vh;
+  background-color:#1800f1;  
+  border-radius: 50%;
+  display: inline-flex;
+
+  }
+
+  .dropbutton img {
+	  padding-top: 0.4vh;
+	  padding-left: 0.1vh;
+  }
+  
+  .dropd {
+	position: relative;
+	display: inline-flex;
+  }
+  
+  .buttondrop {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 16vh;
+	box-shadow: 0vh 0.8vh 1.6vh 0vh rgba(0,0,0,0.2);
+	z-index: 1;
+	font-size: 1.7vh;
+  }
+  
+  .buttondrop a {
+	color: black;
+	padding: 1.2vh 1.6vh;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .buttondrop a:hover {background-color: #ddd;}
+  
+  .dropd:hover .buttondrop	 {display: block;}
+  
+  
+  .dropd:hover .dropbutton {background-color: #658fdd;}

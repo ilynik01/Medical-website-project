@@ -1,0 +1,107 @@
+
+/* USER PROFILE */
+
+
+.card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    flex-wrap: wrap; 
+	
+    /* font stuff */
+    color: rgb(8, 2, 94);
+    font-size: large;
+
+
+    padding: 20px;
+    margin-left: auto;
+    align-self: center;
+
+	text-align: center;
+    margin-top: 100px;
+    
+    /* border */
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
+ 
+.koty {
+    align-items: center;
+}
+
+
+.profile-i{
+    background-color: #e2afaf;
+    width: 20vmin;
+
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+
+}
+
+/* when size changes */
+@media (max-width:750px){
+    .profile-i{
+        
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+
+
+.profile-t{
+    background-color: #db7d7d;
+    /* margin-top: 50px; */
+	padding: 20px;
+    width: 50vmin;
+
+    overflow-wrap: break-word;
+    
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+@media (max-width:750px){
+    .profile-t{
+        
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+
+.card img{
+
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.cat {
+    align-items: center;
+
+}
+
+
+
+
+
+

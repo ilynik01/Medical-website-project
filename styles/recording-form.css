@@ -1,0 +1,134 @@
+input, label, datalist, legend, select {
+    margin-top: 18px;
+    padding: 5px;
+    margin-left: auto;
+    font-size: 17px;
+    border-radius: 6px;
+    /* padding-left: 10%; */
+}
+
+
+@media (max-width: 1300px) {
+    input{
+    width:51%;  
+    }
+    }
+    @media (max-width: 1100px) {
+    input{
+    width:51%;  
+    }
+    }
+    @media (max-width: 1000px) {
+    input{
+    width:30%;  
+    }
+    }
+
+
+
+label {
+    margin-left: 2.6vw;
+}
+
+
+
+
+
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+	width: auto;
+	margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+
+   
+    background-color: rgb(205, 220, 247);
+    width: 67%;
+    border: 6px solid rgb(57, 119, 211);
+    border-radius: 16px;
+    
+    
+
+}
+
+
+
+.required::after{
+    content:" *";
+    color: red;
+}
+
+
+
+
+
+
+input[type=submit] {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding:10px 25px; 
+    margin-left: 6vw;
+}
+
+input[type=reset] {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+
+
+
+.sal{
+    padding-left: 20px;
+}
+
+
+
+#confirmedError {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+#confirmedText {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+
+.my-record .heading1{
+
+   
+    background-image: url(../img/wall.png);
+    background-size: cover;
+    background-position: center;
+
+	position: relative;
+	display: flex;
+
+	height: 13vmax;
+    margin-top: 10.5vh;
+
+	}
+
+.my-record .heading2 {
+    position: absolute;
+	/* center stuff */
+	transform: translate(-50%, -50%);
+
+	/* make letters padding */
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
